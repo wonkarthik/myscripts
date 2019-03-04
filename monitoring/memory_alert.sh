@@ -28,4 +28,6 @@ fi
 
 exit 0
 
-
+# Applying the script
+# chmod +x /etc/scripts/alertmemory.sh
+# ln -s -t /etc/cron.hourly/alertmemory.sh /etc/scripts/alertmemory.sh
