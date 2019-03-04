@@ -1,0 +1,41 @@
+Rename files: replace space by _ in linux:
+for files in *; do mv "$files" `echo $files | tr ' ' '_'`; done
+
+Change case of multiple file names:
+for files in *; do mv $files `echo $files | tr '[:upper:]' '[:lower:]'`; done
+
+Find files having large size:
+ls -hlRtr | awk '{print $5 " " $6 "-" $7 " "$9}' | grep '[0-9]G ' 
+– Variants: grep ‘[0-9][0-9][0-9]M’ will give you files having sizes xxxMBs.
+
+Find and replace text from multiple files :
+find ./ -type f | xargs perl -pi -w -e 's/SEARCH-TERM/REPLACE-TERM/g;'
+
+Find text in file:
+find . -name "*.php" | xargs grep " order by l.ID "
+find . -name "*.pl" | xargs grep "virtualTourUrl"
+grep *.* "Pattern"
+
+Find and Delete file within last one hour:
+find /some/dir -type f -mmin +60 | xargs rm -f
+find . -cmin +60 -exec rm -f {} \;
+
+Find files last modified / accessed – copy to other directory:
+find . -mtime +1 -exec cp {} TARGET_FOLDER \;
+– atime..last access
+– mtime..last modify
+– ctime..last status change
+
+Replace content of a file:
+perl -pi -e "s/kedar/radek/g" a.txt
+perl -pi -e "s/OLDTEXT=OLDVALUE/NewText=NewValue/g" *.*
+
+Find a.txt and Replace content by string comparison and save in to other file:
+find ./ -name "a.txt" -exec sed 's/radek/kedar/g' {} \; > b.txt
+
+Find files modified in last n days:
+find *.sql -mtime +n -exec ls -l --sort=time {} \;
+
+Create and Extract a Tar file:
+tar -cvf /path/to/file.tar /path/to/source/ archived
+tar -xvf /path/to/file.tar
