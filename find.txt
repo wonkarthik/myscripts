@@ -1,4 +1,4 @@
-Rename files: replace space by _ in linux:
+# Rename files: replace space by _ in linux:
 for files in *; do mv "$files" `echo $files | tr ' ' '_'`; done
 
 Change case of multiple file names:
