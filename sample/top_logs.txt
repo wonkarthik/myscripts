@@ -1,0 +1,542 @@
+top - 13:53:03 up 103 days,  1:13,  1 user,  load average: 1.72, 1.08, 0.68
+Tasks: 173 total,   2 running, 171 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  6.5 sy,  0.0 ni, 93.5 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8009720 total,   303240 free,  2074784 used,  5631696 buff/cache
+KiB Swap:        0 total,        0 free,        0 used.  5115352 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+ 9425 root      20   0  275208 133848  28968 S   6.2  1.7  52:06.48 kube-controller
+20798 root      20   0  161980   2168   1524 R   6.2  0.0   0:00.01 top
+    1 root      20   0   43780   4092   2460 S   0.0  0.1   3:40.15 systemd
+    2 root      20   0       0      0      0 S   0.0  0.0   0:01.18 kthreadd
+    3 root      20   0       0      0      0 S   0.0  0.0   3:59.22 ksoftirqd/0
+    5 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/0:0H
+    7 root      rt   0       0      0      0 S   0.0  0.0   1:58.21 migration/0
+    8 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcu_bh
+    9 root      20   0       0      0      0 R   0.0  0.0  39:38.47 rcu_sched
+   10 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 lru-add-drain
+   11 root      rt   0       0      0      0 S   0.0  0.0   0:33.01 watchdog/0
+   12 root      rt   0       0      0      0 S   0.0  0.0   0:26.02 watchdog/1
+   13 root      rt   0       0      0      0 S   0.0  0.0   1:59.09 migration/1
+   14 root      20   0       0      0      0 S   0.0  0.0   5:03.39 ksoftirqd/1
+   16 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/1:0H
+   18 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kdevtmpfs
+   19 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 netns
+   20 root      20   0       0      0      0 S   0.0  0.0   0:03.89 khungtaskd
+   21 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 writeback
+   22 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kintegrityd
+   23 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+   24 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kblockd
+   25 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 md
+   26 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 edac-poller
+   32 root      20   0       0      0      0 S   0.0  0.0   0:02.06 kswapd0
+   33 root      25   5       0      0      0 S   0.0  0.0   0:00.00 ksmd
+   34 root      39  19       0      0      0 S   0.0  0.0   0:14.32 khugepaged
+   35 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 crypto
+   43 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kthrotld
+   45 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kmpath_rdacd
+   46 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kaluad
+   47 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kpsmoused
+   48 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 ipv6_addrconf
+   61 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 deferwq
+   94 root      20   0       0      0      0 S   0.0  0.0   0:25.58 kauditd
+  265 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 ata_sff
+  279 root      20   0       0      0      0 S   0.0  0.0   0:00.00 scsi_eh_0
+  280 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 scsi_tmf_0
+  281 root      20   0       0      0      0 S   0.0  0.0   0:00.00 scsi_eh_1
+  282 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 scsi_tmf_1
+  287 root       0 -20       0      0      0 S   0.0  0.0  14:10.61 kworker/1:1H
+  348 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kdmflush
+  349 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+  359 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kdmflush
+  360 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+  372 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+  373 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfsalloc
+  374 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfs_mru_cache
+  375 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfs-buf/dm-0
+  376 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfs-data/dm-0
+  377 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfs-conv/dm-0
+  378 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfs-cil/dm-0
+  379 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfs-reclaim/dm-
+  380 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfs-log/dm-0
+  381 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfs-eofblocks/d
+  382 root      20   0       0      0      0 S   0.0  0.0  28:30.07 xfsaild/dm-0
+  453 root      20   0   48432  10980  10464 S   0.0  0.1 130:33.03 systemd-journal
+  478 root      20   0   44320   1912   1332 S   0.0  0.0   0:00.17 systemd-udevd
+  479 root      20   0  198524   1372    976 S   0.0  0.0   0:00.00 lvmetad
+  547 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfs-buf/vda1
+  548 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfs-data/vda1
+  549 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfs-conv/vda1
+  550 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfs-cil/vda1
+  551 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfs-reclaim/vda
+  552 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfs-log/vda1
+  553 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfs-eofblocks/v
+  554 root      20   0       0      0      0 S   0.0  0.0   0:00.00 xfsaild/vda1
+  558 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 ttm_swap
+  559 root       0 -20       0      0      0 S   0.0  0.0  13:09.69 kworker/0:1H
+  576 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kdmflush
+  577 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+  586 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfs-buf/dm-2
+  587 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfs-data/dm-2
+  588 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfs-conv/dm-2
+  589 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfs-cil/dm-2
+  590 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfs-reclaim/dm-
+  591 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfs-log/dm-2
+  592 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfs-eofblocks/d
+  593 root      20   0       0      0      0 S   0.0  0.0  28:26.88 xfsaild/dm-2
+  626 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 rpciod
+  627 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xprtiod
+  651 root      20   0   24432   2200   1644 S   0.0  0.0   0:00.13 smartd
+  652 polkitd   20   0  550788  10264   4820 S   0.0  0.1   0:34.30 polkitd
+  655 postfix   20   0  101960   4072   3060 S   0.0  0.1   0:00.00 pickup
+  656 dbus      20   0   78796   2744   1892 S   0.0  0.0   2:27.63 dbus-daemon
+  660 rpc       20   0   69220   1412    852 S   0.0  0.0   0:09.01 rpcbind
+  663 root      20   0  195080   1232    764 S   0.0  0.0   0:00.00 gssproxy
+  676 root      20   0  550164   9416   6852 S   0.0  0.1   2:00.73 NetworkManager
+  677 libstor+  20   0    8576    824    672 S   0.0  0.0   0:15.16 lsmd
+  679 root      20   0   21524   1208    976 S   0.0  0.0   3:09.32 irqbalance
+  682 root      20   0  282076   6056   4628 S   0.0  0.1   0:09.20 sssd
+  683 root      20   0  223468   5516   3832 S   0.0  0.1   0:00.00 abrtd
+  685 root      20   0  221164   4732   3316 S   0.0  0.1   8:22.27 abrt-watch-log
+  697 ntp       20   0   59488   2484   1752 S   0.0  0.0   0:09.05 ntpd
+  720 root      20   0  308484  10764   7552 S   0.0  0.1   1:34.53 sssd_be
+  727 root      20   0  107376   5436   3432 S   0.0  0.1   0:00.24 dhclient
+  728 root      20   0  290548  30276  28964 S   0.0  0.4   1:02.75 sssd_nss
+  729 root      20   0  270212   5504   4196 S   0.0  0.1   1:01.58 sssd_pam
+  754 root      20   0   26508   1924   1476 S   0.0  0.0   1:01.53 systemd-logind
+ 1004 root      20   0  573812  19056   6016 S   0.0  0.2  14:11.01 tuned
+ 1006 root      20   0  112792   4312   3288 S   0.0  0.1   0:00.14 sshd
+ 1008 root      20   0  517244  12380   9048 S   0.0  0.2  84:12.71 rsyslogd
+ 1010 root      20   0  115696    676    516 S   0.0  0.0   0:00.21 rhsmcertd
+ 1011 root      20   0   31508    512    248 S   0.0  0.0   3:25.10 iscsid
+ 1012 root      10 -10   32012   5348   4040 S   0.0  0.1   0:00.00 iscsid
+ 1016 rpcuser   20   0   44504   1808    964 S   0.0  0.0   0:00.01 rpc.statd
+ 1018 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 iscsi_eh
+ 1050 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 nfsiod
+ 1073 root      20   0       0      0      0 S   0.0  0.0   0:00.00 lockd
+ 1082 root      20   0   25904    952    748 S   0.0  0.0   0:00.06 atd
+ 1084 root      20   0  760104   8088   3620 S   0.0  0.1  12:07.99 automount
+ 1108 root      20   0  107964    572    420 S   0.0  0.0   0:00.14 rhnsd
+ 1111 root      20   0  110088    872    744 S   0.0  0.0   0:00.00 agetty
+ 1356 root      20   0   91692   2220   1172 S   0.0  0.0   0:18.07 master
+ 1388 postfix   20   0  102028   4096   3080 S   0.0  0.1   0:03.41 qmgr
+ 9393 root      20   0  348036   5012   1628 S   0.0  0.1   0:04.69 docker-containe
+ 9401 root      20   0  282244   2980   1664 S   0.0  0.0   0:00.09 docker-containe
+ 9433 root      20   0  139540  29116  14248 S   0.0  0.4  11:03.24 kube-scheduler
+11206 root      20   0  126284   1592    964 S   0.0  0.0   0:16.55 crond
+11318 root      16  -4   55508   1080    628 S   0.0  0.0   2:11.39 auditd
+11510 root      20   0 1272796  66236  18052 S   0.0  0.8   1045:29 dockerd-current
+11518 root      20   0  847356 140936   5112 S   0.0  1.8 152:56.79 docker-containe
+11613 root      20   0  210552  13440   3716 S   0.0  0.2 471:15.92 rhel-push-plugi
+12039 root      20   0 1228844  90852  33684 S   0.0  1.1   2708:33 kubelet
+12125 root      20   0  348036   2968   1636 S   0.0  0.0   0:05.33 docker-containe
+12126 root      20   0  282500   2976   1640 S   0.0  0.0   0:05.81 docker-containe
+12137 root      20   0  282500   5012   1640 S   0.0  0.1   0:05.29 docker-containe
+12169 root      20   0    1012      4      0 S   0.0  0.0   0:00.00 pause
+12178 root      20   0  283908   2968   1640 S   0.0  0.0   0:05.43 docker-containe
+12182 root      20   0    1012      4      0 S   0.0  0.0   0:00.00 pause
+12201 root      20   0    1012      4      0 S   0.0  0.0   0:00.00 pause
+12222 root      20   0    1012      4      0 S   0.0  0.0   0:00.00 pause
+12318 root      20   0  349444   2960   1676 S   0.0  0.0   2:32.31 docker-containe
+12374 root      20   0 1153616 981108  40964 S   0.0 12.2   8329:45 kube-apiserver
+12541 root      20   0  348036   5012   1676 S   0.0  0.1   0:05.47 docker-containe
+12558 root      20   0    1012      4      0 S   0.0  0.0   0:00.00 pause
+12580 root      20   0  216964   5028   1640 S   0.0  0.1   0:05.77 docker-containe
+12599 root      20   0  137648  24960  12296 S   0.0  0.3 168:33.90 kube-proxy
+13357 root      20   0  348036   2964   1644 S   0.0  0.0   0:05.41 docker-containe
+13375 root      20   0    1012      4      0 S   0.0  0.0   0:00.00 pause
+13476 root      20   0  348036   5008   1624 S   0.0  0.1  34:46.95 docker-containe
+13493 root      20   0     756    228    192 S   0.0  0.0   1:06.62 runsvdir
+13580 root      20   0     736      4      0 S   0.0  0.0   0:00.27 runsv
+13581 root      20   0     736      4      0 S   0.0  0.0   0:00.26 runsv
+13582 root      20   0     736      4      0 S   0.0  0.0   0:00.26 runsv
+13583 root      20   0     736    236    204 S   0.0  0.0   0:00.25 runsv
+13584 root      20   0     768    524    328 S   0.0  0.0  14:42.94 bird
+13585 root      20   0  380572 362116  12764 S   0.0  4.5   1568:09 calico-felix
+13586 root      20   0     720    260    192 S   0.0  0.0  13:06.29 bird6
+13587 root      20   0   40532  21196  10328 S   0.0  0.3 207:54.04 confd
+13735 root      20   0  282500   2972   1620 S   0.0  0.0   0:05.84 docker-containe
+13753 root      20   0    1236    304    248 S   0.0  0.0   2:06.48 install-cni.sh
+14506 root      20   0       0      0      0 S   0.0  0.0   0:00.02 kworker/1:2
+15355 root      20   0       0      0      0 S   0.0  0.0   0:00.01 kworker/0:1
+16890 root      20   0       0      0      0 S   0.0  0.0   0:00.02 kworker/0:0
+17068 root      20   0  178300   6856   5224 S   0.0  0.1   0:00.14 sshd
+17089 root      20   0  177960   6544   5028 S   0.0  0.1   0:00.03 sshd
+17095 root      20   0   72160   2836   2068 S   0.0  0.0   0:00.00 sftp-server
+17103 root      20   0  116776   3528   1800 S   0.0  0.0   0:00.09 bash
+17504 root      20   0       0      0      0 S   0.0  0.0   0:00.01 kworker/1:1
+18727 root      20   0       0      0      0 S   0.0  0.0   0:00.26 kworker/u4:2
+19045 root      20   0       0      0      0 S   0.0  0.0   0:00.01 kworker/1:0
+19875 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kworker/0:2
+20746 root      20   0    1216      4      0 S   0.0  0.0   0:00.00 sleep
+20796 root      20   0  113172   1396   1204 S   0.0  0.0   0:00.00 mem_check.sh
+23059 root      20   0       0      0      0 S   0.0  0.0   0:02.15 kworker/u4:1
+26626 root      20   0  282500   5020   1632 S   0.0  0.1   0:05.41 docker-containe
+26644 nfsnobo+  20   0    1012      4      0 S   0.0  0.0   0:00.01 pause
+26718 root      20   0  283908   5256   1692 S   0.0  0.1   0:05.04 docker-containe
+26737 nfsnobo+  20   0  557080  16888   5400 S   0.0  0.2 169:53.66 node_exporter
+27395 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 cfg80211
+28130 root      20   0  348036   5016   1624 S   0.0  0.1   2:15.27 docker-containe
+28147 root      20   0   10.2g 129708  16076 S   0.0  1.6   1621:31 etcd
+
+top - 13:53:06 up 103 days,  1:13,  1 user,  load average: 1.66, 1.08, 0.68
+Tasks: 173 total,   1 running, 172 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  4.2 us,  2.9 sy,  0.0 ni, 92.4 id,  0.2 wa,  0.0 hi,  0.2 si,  0.2 st
+KiB Mem :  8009720 total,   302860 free,  2075136 used,  5631724 buff/cache
+KiB Swap:        0 total,        0 free,        0 used.  5115000 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+12039 root      20   0 1228844  90852  33684 S   3.7  1.1   2708:33 kubelet
+12374 root      20   0 1153616 981108  40964 S   3.7 12.2   8329:45 kube-apiserver
+ 9425 root      20   0  275208 133848  28968 S   3.0  1.7  52:06.57 kube-controller
+28147 root      20   0   10.2g 129708  16076 S   1.3  1.6   1621:31 etcd
+11510 root      20   0 1272796  66236  18052 S   1.0  0.8   1045:29 dockerd-current
+13585 root      20   0  380572 362116  12764 S   1.0  4.5   1568:09 calico-felix
+ 9433 root      20   0  139540  29116  14248 S   0.3  0.4  11:03.25 kube-scheduler
+11613 root      20   0  210552  13440   3716 S   0.3  0.2 471:15.93 rhel-push-plugi
+26737 nfsnobo+  20   0  557080  16888   5400 S   0.3  0.2 169:53.67 node_exporter
+    1 root      20   0   43780   4092   2460 S   0.0  0.1   3:40.15 systemd
+    2 root      20   0       0      0      0 S   0.0  0.0   0:01.18 kthreadd
+    3 root      20   0       0      0      0 S   0.0  0.0   3:59.22 ksoftirqd/0
+    5 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/0:0H
+    7 root      rt   0       0      0      0 S   0.0  0.0   1:58.21 migration/0
+    8 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcu_bh
+    9 root      20   0       0      0      0 S   0.0  0.0  39:38.47 rcu_sched
+   10 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 lru-add-drain
+   11 root      rt   0       0      0      0 S   0.0  0.0   0:33.01 watchdog/0
+   12 root      rt   0       0      0      0 S   0.0  0.0   0:26.02 watchdog/1
+   13 root      rt   0       0      0      0 S   0.0  0.0   1:59.09 migration/1
+   14 root      20   0       0      0      0 S   0.0  0.0   5:03.39 ksoftirqd/1
+   16 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/1:0H
+   18 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kdevtmpfs
+   19 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 netns
+   20 root      20   0       0      0      0 S   0.0  0.0   0:03.89 khungtaskd
+   21 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 writeback
+   22 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kintegrityd
+   23 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+   24 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kblockd
+   25 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 md
+   26 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 edac-poller
+   32 root      20   0       0      0      0 S   0.0  0.0   0:02.06 kswapd0
+   33 root      25   5       0      0      0 S   0.0  0.0   0:00.00 ksmd
+   34 root      39  19       0      0      0 S   0.0  0.0   0:14.32 khugepaged
+   35 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 crypto
+   43 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kthrotld
+   45 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kmpath_rdacd
+   46 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kaluad
+   47 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kpsmoused
+   48 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 ipv6_addrconf
+   61 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 deferwq
+   94 root      20   0       0      0      0 S   0.0  0.0   0:25.58 kauditd
+  265 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 ata_sff
+  279 root      20   0       0      0      0 S   0.0  0.0   0:00.00 scsi_eh_0
+  280 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 scsi_tmf_0
+  281 root      20   0       0      0      0 S   0.0  0.0   0:00.00 scsi_eh_1
+  282 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 scsi_tmf_1
+  287 root       0 -20       0      0      0 S   0.0  0.0  14:10.61 kworker/1:1H
+  348 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kdmflush
+  349 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+  359 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kdmflush
+  360 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+  372 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+  373 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfsalloc
+  374 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfs_mru_cache
+  375 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfs-buf/dm-0
+  376 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfs-data/dm-0
+  377 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfs-conv/dm-0
+  378 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfs-cil/dm-0
+  379 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfs-reclaim/dm-
+  380 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfs-log/dm-0
+  381 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfs-eofblocks/d
+  382 root      20   0       0      0      0 S   0.0  0.0  28:30.07 xfsaild/dm-0
+  453 root      20   0   48432  10992  10476 S   0.0  0.1 130:33.03 systemd-journal
+  478 root      20   0   44320   1912   1332 S   0.0  0.0   0:00.17 systemd-udevd
+  479 root      20   0  198524   1372    976 S   0.0  0.0   0:00.00 lvmetad
+  547 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfs-buf/vda1
+  548 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfs-data/vda1
+  549 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfs-conv/vda1
+  550 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfs-cil/vda1
+  551 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfs-reclaim/vda
+  552 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfs-log/vda1
+  553 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfs-eofblocks/v
+  554 root      20   0       0      0      0 S   0.0  0.0   0:00.00 xfsaild/vda1
+  558 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 ttm_swap
+  559 root       0 -20       0      0      0 S   0.0  0.0  13:09.69 kworker/0:1H
+  576 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kdmflush
+  577 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+  586 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfs-buf/dm-2
+  587 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfs-data/dm-2
+  588 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfs-conv/dm-2
+  589 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfs-cil/dm-2
+  590 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfs-reclaim/dm-
+  591 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfs-log/dm-2
+  592 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfs-eofblocks/d
+  593 root      20   0       0      0      0 S   0.0  0.0  28:26.88 xfsaild/dm-2
+  626 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 rpciod
+  627 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xprtiod
+  651 root      20   0   24432   2200   1644 S   0.0  0.0   0:00.13 smartd
+  652 polkitd   20   0  550788  10264   4820 S   0.0  0.1   0:34.30 polkitd
+  655 postfix   20   0  101960   4072   3060 S   0.0  0.1   0:00.00 pickup
+  656 dbus      20   0   78796   2744   1892 S   0.0  0.0   2:27.63 dbus-daemon
+  660 rpc       20   0   69220   1412    852 S   0.0  0.0   0:09.01 rpcbind
+  663 root      20   0  195080   1232    764 S   0.0  0.0   0:00.00 gssproxy
+  676 root      20   0  550164   9416   6852 S   0.0  0.1   2:00.73 NetworkManager
+  677 libstor+  20   0    8576    824    672 S   0.0  0.0   0:15.16 lsmd
+  679 root      20   0   21524   1208    976 S   0.0  0.0   3:09.32 irqbalance
+  682 root      20   0  282076   6056   4628 S   0.0  0.1   0:09.20 sssd
+  683 root      20   0  223468   5516   3832 S   0.0  0.1   0:00.00 abrtd
+  685 root      20   0  221164   4732   3316 S   0.0  0.1   8:22.27 abrt-watch-log
+  697 ntp       20   0   59488   2484   1752 S   0.0  0.0   0:09.05 ntpd
+  720 root      20   0  308484  10764   7552 S   0.0  0.1   1:34.53 sssd_be
+  727 root      20   0  107376   5436   3432 S   0.0  0.1   0:00.24 dhclient
+  728 root      20   0  290548  30276  28964 S   0.0  0.4   1:02.75 sssd_nss
+  729 root      20   0  270212   5504   4196 S   0.0  0.1   1:01.58 sssd_pam
+  754 root      20   0   26508   1924   1476 S   0.0  0.0   1:01.53 systemd-logind
+ 1004 root      20   0  573812  19056   6016 S   0.0  0.2  14:11.01 tuned
+ 1006 root      20   0  112792   4312   3288 S   0.0  0.1   0:00.14 sshd
+ 1008 root      20   0  517244  12380   9048 S   0.0  0.2  84:12.71 rsyslogd
+ 1010 root      20   0  115696    676    516 S   0.0  0.0   0:00.21 rhsmcertd
+ 1011 root      20   0   31508    512    248 S   0.0  0.0   3:25.10 iscsid
+ 1012 root      10 -10   32012   5348   4040 S   0.0  0.1   0:00.00 iscsid
+ 1016 rpcuser   20   0   44504   1808    964 S   0.0  0.0   0:00.01 rpc.statd
+ 1018 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 iscsi_eh
+ 1050 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 nfsiod
+ 1073 root      20   0       0      0      0 S   0.0  0.0   0:00.00 lockd
+ 1082 root      20   0   25904    952    748 S   0.0  0.0   0:00.06 atd
+ 1084 root      20   0  760104   8088   3620 S   0.0  0.1  12:07.99 automount
+ 1108 root      20   0  107964    572    420 S   0.0  0.0   0:00.14 rhnsd
+ 1111 root      20   0  110088    872    744 S   0.0  0.0   0:00.00 agetty
+ 1356 root      20   0   91692   2220   1172 S   0.0  0.0   0:18.07 master
+ 1388 postfix   20   0  102028   4096   3080 S   0.0  0.1   0:03.41 qmgr
+ 9393 root      20   0  348036   5012   1628 S   0.0  0.1   0:04.69 docker-containe
+ 9401 root      20   0  282244   2980   1664 S   0.0  0.0   0:00.09 docker-containe
+11206 root      20   0  126284   1592    964 S   0.0  0.0   0:16.55 crond
+11318 root      16  -4   55508   1080    628 S   0.0  0.0   2:11.39 auditd
+11518 root      20   0  847356 140936   5112 S   0.0  1.8 152:56.79 docker-containe
+12125 root      20   0  348036   2968   1636 S   0.0  0.0   0:05.33 docker-containe
+12126 root      20   0  282500   2976   1640 S   0.0  0.0   0:05.81 docker-containe
+12137 root      20   0  282500   5012   1640 S   0.0  0.1   0:05.29 docker-containe
+12169 root      20   0    1012      4      0 S   0.0  0.0   0:00.00 pause
+12178 root      20   0  283908   2968   1640 S   0.0  0.0   0:05.43 docker-containe
+12182 root      20   0    1012      4      0 S   0.0  0.0   0:00.00 pause
+12201 root      20   0    1012      4      0 S   0.0  0.0   0:00.00 pause
+12222 root      20   0    1012      4      0 S   0.0  0.0   0:00.00 pause
+12318 root      20   0  349444   2960   1676 S   0.0  0.0   2:32.31 docker-containe
+12541 root      20   0  348036   5012   1676 S   0.0  0.1   0:05.47 docker-containe
+12558 root      20   0    1012      4      0 S   0.0  0.0   0:00.00 pause
+12580 root      20   0  216964   5028   1640 S   0.0  0.1   0:05.77 docker-containe
+12599 root      20   0  137648  24960  12296 S   0.0  0.3 168:33.90 kube-proxy
+13357 root      20   0  348036   2964   1644 S   0.0  0.0   0:05.41 docker-containe
+13375 root      20   0    1012      4      0 S   0.0  0.0   0:00.00 pause
+13476 root      20   0  348036   5008   1624 S   0.0  0.1  34:46.95 docker-containe
+13493 root      20   0     756    228    192 S   0.0  0.0   1:06.62 runsvdir
+13580 root      20   0     736      4      0 S   0.0  0.0   0:00.27 runsv
+13581 root      20   0     736      4      0 S   0.0  0.0   0:00.26 runsv
+13582 root      20   0     736      4      0 S   0.0  0.0   0:00.26 runsv
+13583 root      20   0     736    236    204 S   0.0  0.0   0:00.25 runsv
+13584 root      20   0     768    524    328 S   0.0  0.0  14:42.94 bird
+13586 root      20   0     720    260    192 S   0.0  0.0  13:06.29 bird6
+13587 root      20   0   40532  21196  10328 S   0.0  0.3 207:54.04 confd
+13735 root      20   0  282500   2972   1620 S   0.0  0.0   0:05.84 docker-containe
+13753 root      20   0    1236    304    248 S   0.0  0.0   2:06.48 install-cni.sh
+14506 root      20   0       0      0      0 S   0.0  0.0   0:00.02 kworker/1:2
+15355 root      20   0       0      0      0 S   0.0  0.0   0:00.01 kworker/0:1
+16890 root      20   0       0      0      0 S   0.0  0.0   0:00.02 kworker/0:0
+17068 root      20   0  178300   6856   5224 S   0.0  0.1   0:00.14 sshd
+17089 root      20   0  177960   6544   5028 S   0.0  0.1   0:00.03 sshd
+17095 root      20   0   72160   2836   2068 S   0.0  0.0   0:00.00 sftp-server
+17103 root      20   0  116776   3528   1800 S   0.0  0.0   0:00.09 bash
+17504 root      20   0       0      0      0 S   0.0  0.0   0:00.01 kworker/1:1
+18727 root      20   0       0      0      0 S   0.0  0.0   0:00.26 kworker/u4:2
+19045 root      20   0       0      0      0 S   0.0  0.0   0:00.01 kworker/1:0
+19875 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kworker/0:2
+20796 root      20   0  113172   1396   1204 S   0.0  0.0   0:00.00 mem_check.sh
+20798 root      20   0  161952   2244   1576 R   0.0  0.0   0:00.01 top
+20802 root      20   0    1216      4      0 S   0.0  0.0   0:00.00 sleep
+23059 root      20   0       0      0      0 S   0.0  0.0   0:02.15 kworker/u4:1
+26626 root      20   0  282500   5020   1632 S   0.0  0.1   0:05.41 docker-containe
+26644 nfsnobo+  20   0    1012      4      0 S   0.0  0.0   0:00.01 pause
+26718 root      20   0  283908   5256   1692 S   0.0  0.1   0:05.04 docker-containe
+27395 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 cfg80211
+28130 root      20   0  348036   5016   1624 S   0.0  0.1   2:15.27 docker-containe
+
+top - 13:53:09 up 103 days,  1:13,  1 user,  load average: 1.66, 1.08, 0.68
+Tasks: 173 total,   1 running, 172 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  2.7 us,  3.1 sy,  0.2 ni, 93.9 id,  0.2 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8009720 total,   302116 free,  2075856 used,  5631748 buff/cache
+KiB Swap:        0 total,        0 free,        0 used.  5114280 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+12374 root      20   0 1153616 981108  40964 S   4.0 12.2   8329:45 kube-apiserver
+ 9425 root      20   0  275208 133848  28968 S   2.7  1.7  52:06.65 kube-controller
+28147 root      20   0   10.2g 129708  16076 S   2.0  1.6   1621:31 etcd
+12039 root      20   0 1228844  90852  33684 S   1.3  1.1   2708:33 kubelet
+ 9433 root      20   0  139540  29116  14248 S   0.7  0.4  11:03.27 kube-scheduler
+11510 root      20   0 1272796  66236  18052 S   0.7  0.8   1045:29 dockerd-current
+13585 root      20   0  380572 362116  12764 S   0.7  4.5   1568:09 calico-felix
+11613 root      20   0  210552  13440   3716 S   0.3  0.2 471:15.94 rhel-push-plugi
+12599 root      20   0  137648  24960  12296 S   0.3  0.3 168:33.91 kube-proxy
+13587 root      20   0   40532  21196  10328 S   0.3  0.3 207:54.05 confd
+    1 root      20   0   43780   4092   2460 S   0.0  0.1   3:40.15 systemd
+    2 root      20   0       0      0      0 S   0.0  0.0   0:01.18 kthreadd
+    3 root      20   0       0      0      0 S   0.0  0.0   3:59.22 ksoftirqd/0
+    5 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/0:0H
+    7 root      rt   0       0      0      0 S   0.0  0.0   1:58.21 migration/0
+    8 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcu_bh
+    9 root      20   0       0      0      0 S   0.0  0.0  39:38.47 rcu_sched
+   10 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 lru-add-drain
+   11 root      rt   0       0      0      0 S   0.0  0.0   0:33.01 watchdog/0
+   12 root      rt   0       0      0      0 S   0.0  0.0   0:26.02 watchdog/1
+   13 root      rt   0       0      0      0 S   0.0  0.0   1:59.09 migration/1
+   14 root      20   0       0      0      0 S   0.0  0.0   5:03.39 ksoftirqd/1
+   16 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/1:0H
+   18 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kdevtmpfs
+   19 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 netns
+   20 root      20   0       0      0      0 S   0.0  0.0   0:03.89 khungtaskd
+   21 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 writeback
+   22 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kintegrityd
+   23 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+   24 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kblockd
+   25 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 md
+   26 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 edac-poller
+   32 root      20   0       0      0      0 S   0.0  0.0   0:02.06 kswapd0
+   33 root      25   5       0      0      0 S   0.0  0.0   0:00.00 ksmd
+   34 root      39  19       0      0      0 S   0.0  0.0   0:14.32 khugepaged
+   35 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 crypto
+   43 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kthrotld
+   45 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kmpath_rdacd
+   46 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kaluad
+   47 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kpsmoused
+   48 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 ipv6_addrconf
+   61 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 deferwq
+   94 root      20   0       0      0      0 S   0.0  0.0   0:25.58 kauditd
+  265 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 ata_sff
+  279 root      20   0       0      0      0 S   0.0  0.0   0:00.00 scsi_eh_0
+  280 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 scsi_tmf_0
+  281 root      20   0       0      0      0 S   0.0  0.0   0:00.00 scsi_eh_1
+  282 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 scsi_tmf_1
+  287 root       0 -20       0      0      0 S   0.0  0.0  14:10.61 kworker/1:1H
+  348 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kdmflush
+  349 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+  359 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kdmflush
+  360 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+  372 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+  373 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfsalloc
+  374 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfs_mru_cache
+  375 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfs-buf/dm-0
+  376 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfs-data/dm-0
+  377 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfs-conv/dm-0
+  378 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfs-cil/dm-0
+  379 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfs-reclaim/dm-
+  380 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfs-log/dm-0
+  381 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfs-eofblocks/d
+  382 root      20   0       0      0      0 S   0.0  0.0  28:30.07 xfsaild/dm-0
+  453 root      20   0   48432  10996  10480 S   0.0  0.1 130:33.03 systemd-journal
+  478 root      20   0   44320   1912   1332 S   0.0  0.0   0:00.17 systemd-udevd
+  479 root      20   0  198524   1372    976 S   0.0  0.0   0:00.00 lvmetad
+  547 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfs-buf/vda1
+  548 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfs-data/vda1
+  549 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfs-conv/vda1
+  550 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfs-cil/vda1
+  551 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfs-reclaim/vda
+  552 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfs-log/vda1
+  553 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfs-eofblocks/v
+  554 root      20   0       0      0      0 S   0.0  0.0   0:00.00 xfsaild/vda1
+  558 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 ttm_swap
+  559 root       0 -20       0      0      0 S   0.0  0.0  13:09.69 kworker/0:1H
+  576 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kdmflush
+  577 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+  586 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfs-buf/dm-2
+  587 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfs-data/dm-2
+  588 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfs-conv/dm-2
+  589 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfs-cil/dm-2
+  590 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfs-reclaim/dm-
+  591 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfs-log/dm-2
+  592 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfs-eofblocks/d
+  593 root      20   0       0      0      0 S   0.0  0.0  28:26.88 xfsaild/dm-2
+  626 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 rpciod
+  627 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xprtiod
+  651 root      20   0   24432   2200   1644 S   0.0  0.0   0:00.13 smartd
+  652 polkitd   20   0  550788  10264   4820 S   0.0  0.1   0:34.30 polkitd
+  655 postfix   20   0  101960   4072   3060 S   0.0  0.1   0:00.00 pickup
+  656 dbus      20   0   78796   2744   1892 S   0.0  0.0   2:27.63 dbus-daemon
+  660 rpc       20   0   69220   1412    852 S   0.0  0.0   0:09.01 rpcbind
+  663 root      20   0  195080   1232    764 S   0.0  0.0   0:00.00 gssproxy
+  676 root      20   0  550164   9416   6852 S   0.0  0.1   2:00.73 NetworkManager
+  677 libstor+  20   0    8576    824    672 S   0.0  0.0   0:15.16 lsmd
+  679 root      20   0   21524   1208    976 S   0.0  0.0   3:09.32 irqbalance
+  682 root      20   0  282076   6056   4628 S   0.0  0.1   0:09.20 sssd
+  683 root      20   0  223468   5516   3832 S   0.0  0.1   0:00.00 abrtd
+  685 root      20   0  221164   4732   3316 S   0.0  0.1   8:22.27 abrt-watch-log
+  697 ntp       20   0   59488   2484   1752 S   0.0  0.0   0:09.05 ntpd
+  720 root      20   0  308484  10764   7552 S   0.0  0.1   1:34.53 sssd_be
+  727 root      20   0  107376   5436   3432 S   0.0  0.1   0:00.24 dhclient
+  728 root      20   0  290548  30276  28964 S   0.0  0.4   1:02.75 sssd_nss
+  729 root      20   0  270212   5504   4196 S   0.0  0.1   1:01.58 sssd_pam
+  754 root      20   0   26508   1924   1476 S   0.0  0.0   1:01.53 systemd-logind
+ 1004 root      20   0  573812  19056   6016 S   0.0  0.2  14:11.01 tuned
+ 1006 root      20   0  112792   4312   3288 S   0.0  0.1   0:00.14 sshd
+ 1008 root      20   0  517244  12388   9056 S   0.0  0.2  84:12.71 rsyslogd
+ 1010 root      20   0  115696    676    516 S   0.0  0.0   0:00.21 rhsmcertd
+ 1011 root      20   0   31508    512    248 S   0.0  0.0   3:25.10 iscsid
+ 1012 root      10 -10   32012   5348   4040 S   0.0  0.1   0:00.00 iscsid
+ 1016 rpcuser   20   0   44504   1808    964 S   0.0  0.0   0:00.01 rpc.statd
+ 1018 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 iscsi_eh
+ 1050 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 nfsiod
+ 1073 root      20   0       0      0      0 S   0.0  0.0   0:00.00 lockd
+ 1082 root      20   0   25904    952    748 S   0.0  0.0   0:00.06 atd
+ 1084 root      20   0  760104   8088   3620 S   0.0  0.1  12:07.99 automount
+ 1108 root      20   0  107964    572    420 S   0.0  0.0   0:00.14 rhnsd
+ 1111 root      20   0  110088    872    744 S   0.0  0.0   0:00.00 agetty
+ 1356 root      20   0   91692   2220   1172 S   0.0  0.0   0:18.07 master
+ 1388 postfix   20   0  102028   4096   3080 S   0.0  0.1   0:03.41 qmgr
+ 9393 root      20   0  348036   5012   1628 S   0.0  0.1   0:04.69 docker-containe
+ 9401 root      20   0  282244   2980   1664 S   0.0  0.0   0:00.09 docker-containe
+11206 root      20   0  126284   1592    964 S   0.0  0.0   0:16.55 crond
+11318 root      16  -4   55508   1080    628 S   0.0  0.0   2:11.39 auditd
+11518 root      20   0  847356 140936   5112 S   0.0  1.8 152:56.79 docker-containe
+12125 root      20   0  348036   2968   1636 S   0.0  0.0   0:05.33 docker-containe
+12126 root      20   0  282500   2976   1640 S   0.0  0.0   0:05.81 docker-containe
+12137 root      20   0  282500   5012   1640 S   0.0  0.1   0:05.29 docker-containe
+12169 root      20   0    1012      4      0 S   0.0  0.0   0:00.00 pause
+12178 root      20   0  283908   2968   1640 S   0.0  0.0   0:05.43 docker-containe
+12182 root      20   0    1012      4      0 S   0.0  0.0   0:00.00 pause
+12201 root      20   0    1012      4      0 S   0.0  0.0   0:00.00 pause
+12222 root      20   0    1012      4      0 S   0.0  0.0   0:00.00 pause
+12318 root      20   0  349444   2960   1676 S   0.0  0.0   2:32.31 docker-containe
+12541 root      20   0  348036   5012   1676 S   0.0  0.1   0:05.47 docker-containe
+12558 root      20   0    1012      4      0 S   0.0  0.0   0:00.00 pause
+12580 root      20   0  216964   5028   1640 S   0.0  0.1   0:05.77 docker-containe
+13357 root      20   0  348036   2964   1644 S   0.0  0.0   0:05.41 docker-containe
+13375 root      20   0    1012      4      0 S   0.0  0.0   0:00.00 pause
+13476 root      20   0  348036   5008   1624 S   0.0  0.1  34:46.95 docker-containe
+13493 root      20   0     756    228    192 S   0.0  0.0   1:06.62 runsvdir
+13580 root      20   0     736      4      0 S   0.0  0.0   0:00.27 runsv
+13581 root      20   0     736      4      0 S   0.0  0.0   0:00.26 runsv
+13582 root      20   0     736      4      0 S   0.0  0.0   0:00.26 runsv
+13583 root      20   0     736    236    204 S   0.0  0.0   0:00.25 runsv
+13584 root      20   0     768    524    328 S   0.0  0.0  14:42.94 bird
+13586 root      20   0     720    260    192 S   0.0  0.0  13:06.29 bird6
+13735 root      20   0  282500   2972   1620 S   0.0  0.0   0:05.84 docker-containe
+13753 root      20   0    1236    304    248 S   0.0  0.0   2:06.48 install-cni.sh
+14506 root      20   0       0      0      0 S   0.0  0.0   0:00.02 kworker/1:2
+15355 root      20   0       0      0      0 S   0.0  0.0   0:00.01 kworker/0:1
+16890 root      20   0       0      0      0 S   0.0  0.0   0:00.02 kworker/0:0
+17068 root      20   0  178300   6856   5224 S   0.0  0.1   0:00.14 sshd
+17089 root      20   0  177960   6544   5028 S   0.0  0.1   0:00.03 sshd
+17095 root      20   0   72160   2836   2068 S   0.0  0.0   0:00.00 sftp-server
+17103 root      20   0  116776   3528   1800 S   0.0  0.0   0:00.09 bash
+17504 root      20   0       0      0      0 S   0.0  0.0   0:00.01 kworker/1:1
+18727 root      20   0       0      0      0 S   0.0  0.0   0:00.26 kworker/u4:2
+19045 root      20   0       0      0      0 S   0.0  0.0   0:00.01 kworker/1:0
+19875 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kworker/0:2
+20796 root      20   0  113172   1396   1204 S   0.0  0.0   0:00.00 mem_check.sh
+20798 root      20   0  161952   2244   1576 R   0.0  0.0   0:00.01 top
+20802 root      20   0    1216      4      0 S   0.0  0.0   0:00.00 sleep
+23059 root      20   0       0      0      0 S   0.0  0.0   0:02.15 kworker/u4:1
+26626 root      20   0  282500   5020   1632 S   0.0  0.1   0:05.41 docker-containe
+26644 nfsnobo+  20   0    1012      4      0 S   0.0  0.0   0:00.01 pause
+26718 root      20   0  283908   5256   1692 S   0.0  0.1   0:05.04 docker-containe
+26737 nfsnobo+  20   0  557080  16888   5400 S   0.0  0.2 169:53.67 node_exporter
+27395 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 cfg80211
+28130 root      20   0  348036   5016   1624 S   0.0  0.1   2:15.27 docker-containe
